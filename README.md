@@ -32,10 +32,10 @@ In this lab, we're going to make a song library. Our data model looks like this:
 The base models, controllers, and seed data have been provided for you. The associations have not been wired up.
 
 * Write `app/views/songs/new.html.erb`. This form should have:
-  * A text input box that sets the song's title.
-  * A text input box for the artist.
-  * A selection box for genre. Users should be able to pick amongst existing genres only.
-  * Several text input boxes to add notes to the song. These should have the IDs `song_notes_1`, `song_notes_2`, and so on for the specs to pass. (You might need to search around for how to pass an array using `strong_params`!)
+  * A text input box that sets the song's title. X
+  * A text input box for the artist. X
+  * A selection box for genre. Users should be able to pick amongst existing genres only. X
+  * Several text input boxes to add notes to the song. These should have the IDs `song_notes_1`, `song_notes_2`, and so on for the specs to pass. (You might need to search around for how to pass an array using `strong_params`!) X
 
 There are feature tests!
 
